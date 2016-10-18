@@ -1,0 +1,31 @@
+
+/* Container principal da página */
+div#main-container {
+    min-height: 300px;
+}
+
+/* Imagem/Avatar do Usuário */
+img.user-avatar {
+    border: 5px #cecece;
+    border-radius: 5px;
+}
+
+/* Nome/Login do Usuário */
+.user-name-login {
+    display: inline-block;
+    margin-left: 10px;
+}
+.user-name-login:first-letter {
+    text-transform: uppercase;
+}
+
+/* footer */
+footer {
+    font-family: "Open Sans","sans-serif";
+    font-size: 14px;
+    height: 100%;
+    padding-top: 120px;
+    padding-bottom: 200px;
+    text-align: center;
+    color: #777777;
+}
